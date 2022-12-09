@@ -1,0 +1,26 @@
+{
+    "editor.tabSize": 4,
+    "files.eol": "\n",
+    "python.defaultInterpreterPath": ".venv/bin/python3.10",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.minimap.autohide": true,
+    "editor.minimap.enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E203,W503,W504"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.defaultFormatter": null,
+    },
+}
