@@ -5,7 +5,7 @@ import os
 
 a = [1, 2, 3]
 
-dd = a + 3
-
-print(dd)
+print(*a)
 a = [1, 2, 3]
+
+print(os.getcwd())
