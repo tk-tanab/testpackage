@@ -1,5 +1,6 @@
 import argparse
 
+# initファイルがあるのでimportされているのは関数そのもの
 from testpackageforjoblibsigma import for_sigma, joblib_sigma
 
 

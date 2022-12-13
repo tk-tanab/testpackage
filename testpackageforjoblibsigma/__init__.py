@@ -1,3 +1,4 @@
+# from や import でパッケージ名を指定するとこのファイルが呼ばれる
 # 外部ディレクトリから参照できるようにする関数をimport
 from .for_sigma import for_sigma
 from .joblib_sigma import joblib_sigma
