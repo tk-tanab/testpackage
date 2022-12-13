@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "testpackageforjoblibsigma"
-version = "0.1.7"
+version = "0.1.8"
 description = "test to make package and set up python environment"
 authors = ["tk-tanab <tk-tanab@ist.osaka-u.ac.jp>"]
 readme = "README.md"
