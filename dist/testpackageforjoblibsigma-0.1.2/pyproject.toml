@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "testpackageforjoblibsigma"
-version = "0.1.7"
+version = "0.1.2"
 description = "test to make package and set up python environment"
 authors = ["tk-tanab <tk-tanab@ist.osaka-u.ac.jp>"]
 readme = "README.md"
@@ -39,4 +39,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-testpackageforjoblibsigma = "testpackageforjoblibsigma.cli:entry"
+testpackageforjoblibsigma = "testpackageforjoblibsigma.__main__:main"

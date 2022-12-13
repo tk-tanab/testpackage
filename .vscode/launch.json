@@ -8,7 +8,7 @@
             "name": "test_args",
             "type": "python",
             "request": "launch",
-            "program": "testpackage/main.py",
+            "program": "testpackageforjoblibsigma/__main__.py",
             "cwd": "${workspaceFolder}", // デバッグでもテストでもここを参照する
             "console": "integratedTerminal",
             "justMyCode": true,
@@ -48,8 +48,8 @@
             "type": "pickString",
             "options": [
                 "--both",
-                "--for",
-                "--joblib",
+                "--for_sigma",
+                "--joblib_sigma",
             ],
             "default": "migrate",
             "description": "引数を選択してください"
