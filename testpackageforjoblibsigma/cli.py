@@ -1,6 +1,7 @@
 import argparse
 
 # initファイルがあるのでimportされているのは関数そのもの
+# 同じディレクトリでもパッケージ名で指定する必要がある（と思われる）
 from testpackageforjoblibsigma import for_sigma, joblib_sigma
 
 
