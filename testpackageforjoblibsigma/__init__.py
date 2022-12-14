@@ -1,5 +1,6 @@
 # from や import でパッケージ名を指定するとこのファイルが呼ばれる
 # 外部に公開する関数をimport
+# 外部に公開したくないパッケージもfrom testpackageforjoblibsigma.cli(モジュール名まで指定) import entry(関数名を指定) とすると呼ばれてしまう
 from .for_sigma import for_sigma
 from .joblib_sigma import joblib_sigma
 
